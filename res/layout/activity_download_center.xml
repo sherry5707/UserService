@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="?android:attr/actionBarSize"
+	    android:background="@color/main_theme"
+	    android:elevation="8dp"
+	    >
+	    <!-- android:background="@drawable/topbar_bg" -->
+        <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/push_download_manager"
+	        android:textSize="18sp"
+	        android:textColor="@android:color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_centerVertical="true"
+	        />
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	    >
+		<!-- android:background="@android:color/white" -->
+        
+        <android.support.v4.view.ViewPager
+		    android:id="@+id/viewpager"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    />
+		    <!-- android:background="@android:color/white" -->
+        
+        <ProgressBar
+			android:id="@+id/progressBar"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			/>
+    </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ragentek.ypush.service"
+    android:versionCode="4"
+    android:versionName="1.02.03" 
+    >
+    <!-- android:sharedUserId="android.uid.system" -->
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- GPS 设备 -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 访问精确位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+
+    <!-- 访问网络状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" /> 
+
+    <!-- 访问WIFI网络状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 改变WIFI网络状态的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 改变WIFI网络状态的权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" /> -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <!-- Fix EWWJLJ-447 -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+
+    <!-- <permission android:protectionLevel="normal" android:name="com.ragentek.ypush.service.YPushService"></permission> -->
+    <!--自动安装app权限-->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" tools:ignore="ProtectedPermissions"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.ragentek.ypush.service.MyApplication"
+        android:theme="@style/AppThemeWithActionBar" >
+        <activity
+            android:name=".ui.AssistActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWithActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+      
+        <activity
+            android:name=".ui.UseGuideActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_common_00"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWithActionBar" />
+        
+        <activity
+            android:name=".ui.CommonWebView"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWithActionBar" />
+        
+     
+        
+        <activity
+            android:name=".ui.PushMsgActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/push_app_name"
+            android:noHistory="true"
+            android:taskAffinity="com.rgk.push" >
+            <intent-filter>
+                <action android:name="android.intent.action.PUSHMSGACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- <receiver android:name="com.ragentek.ypush.service.YPushService.mReceiver"> -->
+        <receiver android:name=".YPushServiceReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.UPLOAD_BY_INTERVAL" />
+                <action android:name="android.intent.action.UPLOAD_RETRY" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".YPushService" >
+            <intent-filter>
+                <action android:name="com.ragentek.ypush.service.IYPushService" />
+            </intent-filter>
+        </service>
+        <service android:name=".DownloadService" >
+            <intent-filter>
+                <action android:name="com.ragentek.ypush.service.IDownloadService" />
+            </intent-filter>
+        </service>
+        <service android:name=".util.GpsBaseStationService" >
+            <intent-filter>
+                <action android:name="com.ragentek.ypush.service.IGpsBaseStationService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.ragentek.ypush.service.YPushServerSettingReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="1304"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+	<!--add start for test push/pull -->
+        <receiver android:name="com.ragentek.ypush.service.YPushServerPushReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="1305"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.ragentek.ypush.service.YPushServerPullReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="1306"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+        <!--end by zhengguang.yang -->
+
+        <activity
+            android:name="com.ragentek.ypush.service.MainActivity"
+            android:label="@string/app_name"
+			android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWithActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINMENU" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.DownloadListActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/push_download_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.rgk.push" />
+        <activity
+            android:name=".ui.BigPicPreviewActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ragentek.ypush.service.ui.UserFeedback"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWithActionBar"
+            android:taskAffinity="com.ragentek.ypush.service" />
+        
+        <activity
+            android:name="com.ragentek.ypush.service.ui.UserAgreementActivity"
+            android:taskAffinity="com.ragentek.ypush.service" />
+
+        <receiver
+            android:name="com.ragentek.ypush.service.download.AppDownloadUtil$AppBroadcastReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+				<action android:name="android.intent.action.PACKAGE_REMOVED"/> 
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- event statistics -->
+        <receiver
+            android:name="com.ragentek.ypush.service.download.AppDownloadUtil$EventStatisticsBroadcastReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.ragentek.ypush.service.push_event_statistics"/>
+            </intent-filter>
+        </receiver>
+        <!-- test for silent install-->
+        <receiver
+            android:name="com.ragentek.ypush.service.download.AppDownloadUtil$PullBroadcastReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.ragentek.ypush.service.pullreceiver" />
+            </intent-filter>
+        </receiver>
+        <!-- add by zhengguang.yang@20160120 start for new push service -->
+        <service android:name=".NewPushService"></service>
+        <!-- add by zhengguang.yang end -->
+    </application>
+
+</manifest>

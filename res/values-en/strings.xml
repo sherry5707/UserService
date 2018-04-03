@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+
+    <string name="app_name">Feedback</string>
+    <string name="title_00_bug_battery">Battery Bug</string>
+    <string name="title_01_bug_reset">Reboot Bug</string>
+    <string name="title_02_bug_net">Network Bug</string>
+    <string name="title_03_bug_call">Phone&amp;SMS Bug</string>
+    <string name="title_04_bug_hw_appearance">Hardware&amp;Looks</string>    
+    <string name="title_05_bug_crash">App Bug&amp;Crash</string>
+    <string name="title_06_bug_screen">Screen Bug</string>
+    <string name="title_07_bug_charge">Charge Bug</string>
+    <string name="title_08_bug_update">Update Bug</string>
+    <string name="title_09_bug_accessories">Attachment Doubt</string>
+    <string name="title_10_bug_other">Others</string>
+    <string name="title_11_advice">Suggestion</string>
+    <string name="title_call_to_customer">Call Custom Service</string>
+    <string name="title_12_bug_data">Lost of Data</string>
+    <string name="title_13_bug_order">Order Doubt</string>
+    <string name="feedback_type">Feedback Type</string>
+    <string name="feedback_add_picture">Feedback Figure</string>
+    <string name="feedback_question_description">Bug Description</string>
+    <string name="feedback_email">Contacts</string>
+    <string name="feedback_question_hint">Description(essential)</string>
+    <string name="feedback_email_hint">Contacts(essential):QQ/Phone/E-mail</string>
+    <string name="user_feedback">Feedback</string>
+    <string name="back">Back</string>
+    <string name="commit">Submit</string>
+    <string name="push_app_name">Latest Recommendaton</string>
+    <string name="push_download_name">Download Manage</string>
+    <string name="user_feedback_input_error">Please fill the detail and contact!</string>
+    <string name="user_feedback_email_error">Hello,please fill the right contact in contact line,we will contact you in time.(such as a QQ , phone or e-mail.)</string>
+    <string name="user_feedback_net_error">Submit failed due to network problem , please try again later.</string>
+    <string name="user_feedback_commit_success">Submit successfully!</string>
+    <string name="user_feedback_advice">    Welcome to use VOGA UI\'s feedback software , you can feedback any problem at any time . So we can improve our product and service . In the using process may produce traffic charges , please consult the local operator ,need to get location information, provide more convenient service for you. To protect user privacy is out basic policy , in the case of unautherized , the client will not collect the user\'s personal privacy.</string>
+	<string name="not_show_next">never remind</string>
+	<string name="user_feedback_advice_title">tips</string>
+	<string name="use_as_well">continue</string>
+	<string name="exit">exit</string>
+	<string name="still_use_title">if continue , it represent:</string>
+	<string name="still_use_summary">Agree</string>
+	<string name="myui_user_service_agreement">&lt;VOGA UI Service Protocol&gt;</string>
+	<string name="myui_user_secrecy_agreement">&lt;VOGA UI Privacy Policy&gt;</string>
+
+    <!-- phone info -->
+    <string name="phone_info_net_type_gprs">CM(gprs)2g</string>
+    <string name="phone_info_net_type_cdma">CT(cdma)2g</string>
+    <string name="phone_info_net_type_edge">CU(edge)2g</string>
+    <string name="phone_info_net_type_evdo">CT(evdo)3g</string>
+    <string name="phone_info_net_type_hsdpa">CU(hsdpa)3g</string>
+    <string name="phone_info_net_type_umts">CM(umts)3g</string>
+    
+    <string name="phone_info_net_type_2g">2G</string>
+    <string name="phone_info_net_type_3g">3G</string>
+    
+    <string name="menu_settings">Settings</string>
+    
+    <!-- zhaoshh add string for msg -->
+    <string name="push_msg_ticker">PUSH MSG</string>
+    <string name="push_msg_title"><xliff:g id="title" example="Main">%1$s</xliff:g></string>
+    <string name="push_msg_summary"><xliff:g id="summary" example="Main">%1$s</xliff:g></string>
+    
+    
+    <!-- zhaoshh add string -->
+    <string name="push_msg_open_url_ticker">PUSH MSG</string>
+    <string name="push_msg_open_url_title">A commended link received.</string>
+    <string name="push_msg_open_url_summary">Please check.</string>
+    
+    <string name="push_msg_open_picture_ticker">PUSH MSG</string>
+    <string name="push_msg_open_picture_title">A commended image received.</string>
+    <string name="push_msg_open_picture_summary">Please check.</string>
+    
+    <string name="push_msg_download_file_ticker">PUSH MSG</string>
+    <string name="push_msg_download_file_title">A commended APK received.</string>
+    <string name="push_msg_download_file_summary">Please check.</string>
+    <string name="push_msg_download_file_complete_ticker">PUSH MSG</string>
+    <string name="push_msg_download_file_complete_title">APK download completed</string>
+    <string name="push_msg_download_file_complete_summary">Please try.</string>
+    <string name="push_msg_download_file_fail_ticker">PUSH MSG</string>
+    <string name="push_msg_download_file_fail_title">APK download failed</string>
+    <string name="push_msg_download_file_fail_summary">Please check connection.</string>
+    <string name="open">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="push_download_start">Download</string>
+    <string name="push_download_pause">Pause</string>
+    <string name="push_msg_description_retract">Retract</string>
+    <string name="push_msg_description_more">More</string>
+    <string name="push_msg_res_error">No related MSG</string>
+    
+    <!-- App Download  -->
+	<string name="btn_download">Download</string>
+	<string name="btn_launch">Open</string>
+	<string name="btn_downloading">Downloading</string>
+	<string name="btn_install">Install</string>
+	<string name="btn_uninstall">Uninstall</string>
+	<string name="btn_pause">Pause</string>
+	<string name="btn_continue">Continue</string>
+	<string name="btn_retry">Retry</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="btn_update">Update</string>
+	<string name="tips_network_error">No network</string>
+	<string name="push_download_manager">Downloaded Manage</string>
+	<string name="push_download_confirm_delete">Sure to delete history？</string>
+    <string name="push_download_warning">Warning</string>
+    <string name="push_app_version">Version：</string>
+    
+    <string name="push_download_pause_first">Please pause first , then delete</string>
+    
+    <string name="pref_title_set_business_server">Set as business server</string>
+    <string name="pref_server_setting_title">Business Server Settings</string>
+    <string name="pref_title_clear_reg_once_status">clear register status</string>
+	<!--add by zhengguang.yang@20170914 start for add query active status -->
+	<string name="pref_title_query_active_status">query active status</string>
+	<!--end by zhengguang.yang -->
+    <string name="registered_success">last register date<xliff:g id="date">%s</xliff:g></string>
+    <string name="registered_fail">the data has not register</string>
+    <string name="unregistered">unregistered</string>
+    <string name="pref_title_reg_once_status">register status</string>
+    <string name="clear_reg_once_flag_summary">register status</string>
+    <string name="reg_once_flag_cleared">successfully clear</string>
+    <string name="set" >"Setup"</string>
+    <string name="no">"Cancel"</string>
+    <string name="pref_title_reg_once_limit">Set the first boot data and time </string>
+    <string name="pref_summary_reg_once_limit">register boot-time setup</string>
+    <string name="operator_cmcc">China Mobile</string>
+    <string name="operator_cu">China Union</string>
+    <string name="operator_ct">China Telcome</string>
+    <string name="app_description">App Description</string>
+    <string name="submitting">Submitting, please wait...</string>
+    <string name="commit_in_background">Commit in background</string>
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <View
+        android:id="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/qc_liner"/>
+    <!-- 列表框 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/liner">
+        <com.ragentek.ypush.service.widget.pulltorefresh.library.PullToRefreshListView
+	        android:id="@+id/pull_refresh_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:cacheColorHint="#00000000"
+	        android:fadingEdge="none"
+	        android:fastScrollEnabled="false"
+	        android:footerDividersEnabled="false"
+	        android:headerDividersEnabled="false"
+	        android:divider="@null"
+	        android:background="@color/common_bg_color"
+	        android:smoothScrollbar="true" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/user_service_nonet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:background="#fff" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center" >
+
+            <ProgressBar
+                android:id="@+id/user_service_progressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:visibility="gone"/>
+            <ImageView 
+                android:id="@+id/iv_user_service_nonet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/nonet"/>
+            <TextView
+                android:id="@+id/tv_user_service_nonet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#50000000"
+                android:text="@string/no_net" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

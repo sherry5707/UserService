@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppThemeNoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar"></style>
+
+    <style name="AppThemeWithActionBar" parent="@android:style/Theme.Material.Light">
+        <item name="android:statusBarColor">@color/statusbar_color</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+		<item name="android:titleTextColor">@android:color/black</item>
+    </style>
+
+    <style name="AppThemeNoActionBarFullscreen" parent="@android:style/Theme.Material.Light.NoActionBar.TranslucentDecor">
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="myActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    
+    <!-- add by zhengguang.yang@20160302 start for dialog content can't show -->
+    <style name="myAlertDialogText" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:textAppearance">@style/myAlertDialogTextAppearance</item>
+    </style>
+    <style name="myAlertDialogTextAppearance" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!-- addb by zhengguang.yang end -->
+
+</resources>

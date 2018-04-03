@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_view_selected_color">#ff8800</color>
+    <color name="divider_line_and_button_pressed">#1e000000</color>
+    
+    <color name="font_title">#de000000</color>
+    <color name="font_subtitle">#8a000000</color>
+    
+    <color name="main_theme">#e94b35</color>
+    <!-- modified by zhengguang.yang@20160222 start for adapter d5177/d5173 system theme  -->
+    <!-- <color name="statusbar_color">@color/toolbar_bg_color</color> -->
+    <color name="statusbar_color">@color/black</color>
+    <!-- modified by zhengguang.yang@20160222 end  -->
+    <color name="actionbar_color">@color/toolbar_bg_color</color>
+    <color name="toolbar_bg_color">#eeeeee</color>
+    <color name="common_bg_color">#FAFAFA</color>
+    <color name="main_tab_title_bg_color">@color/actionbar_color</color>
+    <color name="list_divider_color">#F0F0F0</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#f6b7ae</color>
+    <color name="lightwhite">#fff</color>
+    
+    <color name="main_tabtitle_select">#ff6600</color>
+    <color name="main_tabtitle_normal">#43000000</color>
+    
+    <color name="qc_action_text_color">#5a000000</color>
+    <color name="qc_action_text_color2">#08000000</color>
+    <color name="toolbar_bg_color2">#eeeeee</color>
+    
+    <!-- add by sherry for pay -->
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="orange">#E9967A</color>
+    <color name="orange2">#FA8072</color>
+    <color name="pay_gray_bg">#F0F0F0</color>
+    <color name="dark_gray">#f7f8f8</color>
+    <color name="dark_gray2">#e2e2e2</color>
+    <color name="info_target_hover_tint">#FF009688</color>
+    <color name="main_tab_text_color">#de3FCAB8</color>
+    <color name="main_tabtitle_normal2">#B3000000</color>
+    <color name="qc_tip_bg">#F2F2F2</color>
+    <color name="qc_tip_text_color">#8a000000</color>
+    <color name="qc_liner">#DEDEDE</color>
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <color name="user_feedback_edit_text">#cccccc</color>
+    <color name="edit_bg_color">#c6c6c6</color>
+    <color name="btn_color">#3FCAB8</color>
+</resources>

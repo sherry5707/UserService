@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <!-- main tab title -->
+    <dimen name="main_tab_title_margin">12dp</dimen>
+    <!-- image list item-->
+    <dimen name="image_list_item_sub_layout_padding_left">20dp</dimen>
+    <dimen name="image_list_item_sub_layout_padding_right">16dp</dimen>
+    <dimen name="image_list_item_sub_layout_padding_top">13dp</dimen>
+    <dimen name="image_list_item_sub_layout_padding_bottom">13dp</dimen>
+    <dimen name="image_list_item_sub_layout_texts_margin_left">10dp</dimen>
+    <dimen name="image_list_item_text_margin_left">76dp</dimen>
+    <dimen name="image_list_item_text_margin_right">16dp</dimen>
+    <dimen name="image_list_item_image_width">46dp</dimen>
+    <dimen name="image_list_item_image_height">46dp</dimen>
+    <dimen name="image_list_item_divider_height">1dp</dimen>
+    <!-- common gridview -->
+	<dimen name="common_grid_view_horizontal_Spacing">20dp</dimen>
+	<dimen name="common_grid_view_padding_left">20dp</dimen>
+	<dimen name="common_grid_view_padding_right">20dp</dimen>
+	<dimen name="common_grid_view_padding_top">20dp</dimen>
+	<dimen name="common_grid_view_padding_bottom">20dp</dimen>
+	
+	<!-- common gridview item -->
+	<dimen name="common_grid_view_item_width">65dp</dimen>
+	<dimen name="common_grid_view_item_height">72dp</dimen>
+	<dimen name="common_grid_view_item_icon_width">52dp</dimen>
+	<dimen name="common_grid_view_item_icon_height">52dp</dimen>
+	<dimen name="common_grid_view_item_title_padding_top">6dp</dimen>
+	
+	<!-- qc action -->
+	<dimen name="qc_action_padding_left">20dp</dimen>
+	<dimen name="qc_action_padding_right">20dp</dimen>
+	<dimen name="qc_action_height">32dp</dimen>
+	
+	<!-- question feedback grid view -->
+	<dimen name="question_feedback_grid_view_layout_width">90dp</dimen>
+	<dimen name="question_feedback_grid_view_layout_height">72dp</dimen>
+	<dimen name="question_feedback_grid_view_padding_left">22.5dp</dimen>
+	<dimen name="question_feedback_grid_view_padding_right">22.5dp</dimen>
+	<dimen name="question_feedback_grid_view_padding_top">32dp</dimen>
+	<dimen name="question_feedback_grid_view_padding_bottom">32dp</dimen>
+	<dimen name="question_feedback_grid_view_horizontal_spacing">5dp</dimen>
+	<dimen name="question_feedback_grid_view_vertical_spacing">5dp</dimen>
+	
+	<!-- user feedback lolipop -->
+	<dimen name="user_feedback_lolipop_padding_left">20dp</dimen>
+	<dimen name="user_feedback_lolipop_padding_right">16dp</dimen>
+	<dimen name="user_feedback_lolipop_title_layout_height">42dp</dimen>
+	<dimen name="user_feedback_lolipop_edit_minheight">32dp</dimen>
+	<dimen name="user_feedback_lolipop_edit_padding_top">16dp</dimen>
+	<dimen name="user_feedback_lolipop_edit_padding_bottom">34dp</dimen>
+	<dimen name="user_feedback_lolipop_text_margin_bottom">8dp</dimen>
+	<dimen name="user_feedback_lolipop_image_button_width">80dp</dimen>
+	<dimen name="user_feedback_lolipop_image_button_height">80dp</dimen>
+	<dimen name="user_feedback_lolipop_image_button_padding_top">8dp</dimen>
+	
+	<!-- ad view  -->
+	<dimen name="ad_view_height">160dp</dimen>
+	
+    <!-- font size -->
+    <dimen name="main_tab_title_textsize">14sp</dimen>
+    <dimen name="qc_action_textsize">12dp</dimen>
+    <dimen name="common_main_size">12sp</dimen>
+    <dimen name="common_sub_size">12sp</dimen>
+
+	<!--add by sherry-->
+	<dimen name="main_tab_text_size">17sp</dimen>
+	<dimen name="main_actionbar_height">38sp</dimen>
+	<dimen name="main_indicator_title_margin">38dp</dimen>
+</resources>

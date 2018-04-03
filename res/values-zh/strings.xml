@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+    <string name="app_name">用户反馈</string>
+    <string name="title_00_bug_call">通讯问题</string>
+    <string name="title_01_bug_hw_appearance">硬件相关</string>
+    <string name="title_02_bug_crash">应用异常</string>
+    <string name="title_03_bug_charge">充电异常</string>
+    <string name="title_04_bug_update">升级问题</string>
+    <string name="title_05_bug_accessories">配件问题</string>
+    <string name="title_06_bug_other">其他问题</string>
+    <string name="title_07_advice">建议</string>
+    <string name="title_call_to_customer">致电客服</string>
+    <string name="title_12_bug_data">数据丢失</string>
+    <string name="title_13_bug_order">订单问题</string>
+    <string name="feedback_type">反馈类型</string>
+    <string name="feedback_add_picture">反馈附图</string>
+    <string name="feedback_question_description">问题描述</string>
+    <string name="feedback_email">联系方式</string>
+    <string name="feedback_question_hint">请输入你的问题描述</string>
+    <string name="feedback_email_hint">您的联系方式会被严格保密</string>
+    <string name="user_feedback">用户反馈</string>
+    <string name="back">返回</string>
+    <string name="commit">提交</string>
+    <string name="push_app_name">最新推荐</string>
+    <string name="push_download_name">下载管理</string>
+    <string name="user_feedback_input_error">请填写问题描述和联系方式！</string>
+    <string name="user_feedback_email_error">您好，请您在联系方式栏填写正确的联系方式，方便我们及时与您沟通。（联系方式可以是，QQ，手机号或邮箱的任意一种哦。）</string>
+    <string name="user_feedback_net_error">因网络原因，提交失败，请稍后重试！</string>
+    <string name="user_feedback_commit_success">数据提交成功！</string>
+    <string name="user_feedback_advice">欢迎使用用户反馈软件，您可以随时反馈您在使用过程中碰到的各类问题，帮助我们不断提升产品和服务。在使用过程中可能会产生流量费，请咨询当地运营商，需要获取位置信息为您提供更便捷的服务。保护用户隐私是用户反馈的一项基础政策，在用户没有授权的情况下，客户端不会收集用户的个人隐私。</string>
+    <string name="not_show_next">下次不再提醒</string>
+    <string name="user_feedback_advice_title">特别提示</string>
+    <string name="use_as_well">继续使用</string>
+    <string name="exit">退出</string>
+    <string name="still_use_title">继续使用代表您：</string>
+    <string name="still_use_summary">已阅读并同意</string>
+    <string name="myui_user_service_agreement">《VOGA UI用户服务协议》</string>
+    <string name="myui_user_secrecy_agreement">《VOGA UI用户隐私政策》</string>
+
+    <!-- phone info -->
+    <string name="phone_info_net_type_gprs">移动(gprs)2g</string>
+    <string name="phone_info_net_type_cdma">电信(cdma)2g</string>
+    <string name="phone_info_net_type_edge">联通(edge)2g</string>
+    <string name="phone_info_net_type_evdo">电信(evdo)3g</string>
+    <string name="phone_info_net_type_hsdpa">联通(hsdpa)3g</string>
+    <string name="phone_info_net_type_umts">移动(umts)3g</string>
+
+    <string name="phone_info_net_type_2g">2G</string>
+    <string name="phone_info_net_type_3g">3G</string>
+    <string name="phone_info_net_type_4g">4G</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <!-- zhaoshh add string for msg -->
+    <string name="push_msg_ticker">推送消息</string>
+    <string name="push_msg_title"><xliff:g id="title" example="Main">%1$s</xliff:g></string>
+    <string name="push_msg_summary"><xliff:g id="summary" example="Main">%1$s</xliff:g></string>
+
+
+    <!-- zhaoshh add string -->
+    <string name="push_msg_open_url_ticker">Push信息</string>
+    <string name="push_msg_open_url_title">收到系统推荐的链接</string>
+    <string name="push_msg_open_url_summary">请打开链接查看</string>
+
+    <string name="push_msg_open_picture_ticker">Push信息</string>
+    <string name="push_msg_open_picture_title">收到系统推荐的图片</string>
+    <string name="push_msg_open_picture_summary">请打开图片查看</string>
+
+    <string name="push_msg_download_file_ticker">Push信息</string>
+    <string name="push_msg_download_file_title">收到系统推荐的APK</string>
+    <string name="push_msg_download_file_summary">请下载安装</string>
+    <string name="push_msg_download_file_complete_ticker">Push信息</string>
+    <string name="push_msg_download_file_complete_title">APK下载完成</string>
+    <string name="push_msg_download_file_complete_summary">请安装试用</string>
+    <string name="push_msg_download_file_fail_ticker">Push信息</string>
+    <string name="push_msg_download_file_fail_title">APK下载失败</string>
+    <string name="push_msg_download_file_fail_summary">请检查网络状态</string>
+    <string name="open">打开</string>
+    <string name="cancel">取消</string>
+    <string name="push_download_start">下载</string>
+    <string name="push_download_pause">暂停</string>
+    <string name="push_msg_description_retract">收起</string>
+    <string name="push_msg_description_more">更多</string>
+    <string name="push_msg_res_error">无法查找到相关信息</string>
+
+    <!-- App Download  -->
+    <string name="btn_download">下载</string>
+    <string name="btn_launch">打开</string>
+    <string name="btn_downloading">下载中</string>
+    <string name="btn_install">安装</string>
+    <string name="btn_uninstall">卸载</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_continue">继续</string>
+    <string name="btn_retry">重试</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_update">更新</string>
+    <string name="tips_network_error">网络异常，服务器无响应</string>
+    <string name="push_download_manager">下载管理</string>
+    <string name="push_download_confirm_delete">确定要删除该项记录吗？</string>
+    <string name="push_download_warning">提示</string>
+    <string name="push_app_version">版本号：</string>
+
+    <string name="push_download_pause_first">请先暂停后再删除</string>
+
+    <string name="pref_title_set_business_server">设置为商用服务器</string>
+    <string name="pref_server_setting_title">Business Server Settings</string>
+    <string name="pref_title_clear_reg_once_status">清除手机上报状态</string>
+    <string name="registered_success">上次上报日期 <xliff:g id="date">%s</xliff:g></string>
+    <string name="registered_fail">数据未上报</string>
+    <string name="unregistered">未上报</string>
+    <string name="pref_title_reg_once_status">手机上报数据状态</string>
+    <string name="clear_reg_once_flag_summary">手机上报数据状态</string>
+    <string name="reg_once_flag_cleared">清除成功</string>
+    <string name="set" >"设置"</string>
+    <string name="no">"取消"</string>
+    <string name="pref_title_reg_once_limit">首次开机上报数据时间设置(分钟)</string>
+    <string name="pref_summary_reg_once_limit">开机上报时间设置</string>
+    <string name="operator_cmcc">中国移动</string>
+    <string name="operator_cu">中国联通</string>
+    <string name="operator_ct">中国电信</string>
+    <string name="app_description">应用描述</string>
+    <string name="submitting">正在提交，请稍候...</string>
+    <string name="commit_in_background">后台提交</string>
+    <string name="commit_in_background_tips">tips : press home button , but not quit this app , this can sure you submit successfully.</string>
+
+
+    <string name="user_service">用户服务</string>
+    <string name="question_feedback">用户反馈</string>
+    <string name="qc_action">青橙活动</string>
+    <string name="usage_instruction">手机使用说明书</string>
+    <string name="common_question">常见问题</string>
+    <string name="machine_skill">玩机技巧</string>
+    <string name="title_common_00">使用指南</string>
+    <string name="title_common_01">售后政策</string>
+    <string name="title_common_02">服务网点</string>
+    <string name="title_common_03">人工服务</string>
+    <string name="no_net">网络断开 请重接连接互联网</string>
+    <string name="load_fail">加载失败</string>
+    <string name="net_weak">网络不给力</string>
+    <string name="no_sd_card">SD卡不存在，请安装SD卡后再下载</string>
+    <string name="begin_download_game">已开始下载游戏,请在下载管理器查看其状态</string>
+    <string name="pay_success">支付成功</string>
+    <string name="wx_uninstalled">[需要安装微信]</string>
+    <string name="wx_uninstalled2">需要安装微信才可使用微信支付</string>
+    <string name="need_login_account">请登陆您的VOGA UI账户后再购买</string>
+    <string name="go_login">登陆/注册>></string>
+
+    <string name="select_question_type">请选择你要反馈问题的类型</string>
+    <string name="user_guide">使用说明书</string>
+    <string name="service_common_question">常见问题</string>
+</resources>

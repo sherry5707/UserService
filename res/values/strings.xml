@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+    <string name="app_name">UserService</string>
+
+    <string name="title_00_bug_call">Communication</string>
+    <string name="title_01_bug_hw_appearance">Hardware</string>
+    <string name="title_02_bug_crash">Exception</string>
+    <string name="title_03_bug_charge">Charging</string>
+    <string name="title_04_bug_update">Upgrade</string>
+    <string name="title_05_bug_accessories">Accessories</string>
+    <string name="title_06_bug_other">Other</string>
+    <string name="title_07_advice">Suggestion</string>
+    <string name="title_call_to_customer">Call customer service</string>
+    <string name="title_12_bug_data">data lost</string>
+    <string name="title_13_bug_order">order problem</string>
+    <string name="feedback_type">Feedback type</string>
+    <string name="feedback_add_picture">Feedback graph</string>
+    <string name="feedback_question_description">Problem description</string>
+    <string name="feedback_email">Contact information</string>
+    <string name="feedback_question_hint">Please enter your description of the problem</string>
+    <string name="feedback_email_hint">Your contact information will be kept strictly confidential</string>
+    <string name="user_feedback">customer feedback</string>
+    <string name="back">return</string>
+    <string name="commit">submit</string>
+    <string name="push_app_name">Latest Recommended</string>
+    <string name="push_download_name">Download management</string>
+    <string name="user_feedback_input_error">Please fill in the description and contact information！</string>
+    <string name="user_feedback_email_error">Hello please fill in the contact bar to fill in the correct contact information so that we can communicate with you in a timely manner.  (Contact can be QQ， mobile phone number or any one of the mailbox.)</string>
+    <string name="user_feedback_net_error">Due to network reasons submission failed please try again later!</string>
+    <string name="user_feedback_commit_success">Data submitted successfully!</string>
+    <string name="user_feedback_advice">Welcome to the VOGA UI user feedback software,you can always feedback in the course of your use of various problems encountered to help us continue to improve products and services.  In the course of the use of traffic charges may be incurred ,please consult the local operators .Need to obtain location information to provide you with more convenient services.  Protection of user privacy is a basic policy of VOGA UI.If the user does not authorize the case ,the client will not collect the user\'s personal privacy.</string>
+    <string name="not_show_next">Next time no longer remind</string>
+    <string name="user_feedback_advice_title">Special Note</string>
+    <string name="use_as_well">continue to use</string>
+    <string name="exit">exit</string>
+    <string name="still_use_title">Continue to use on behalf of you：</string>
+    <string name="still_use_summary">Has read and agreed</string>
+    <string name="myui_user_service_agreement">《VOGA UI User Service Agreement》</string>
+    <string name="myui_user_secrecy_agreement">《VOGA UI user privacy policy》</string>
+
+    <!-- phone info -->
+    <string name="phone_info_net_type_gprs">China Mobile Communications Corporation(gprs)2g</string>
+    <string name="phone_info_net_type_cdma">China Telecom(cdma)2g</string>
+    <string name="phone_info_net_type_edge">China Unicom(edge)2g</string>
+    <string name="phone_info_net_type_evdo">China Telecom(evdo)3g</string>
+    <string name="phone_info_net_type_hsdpa">China Unicom(hsdpa)3g</string>
+    <string name="phone_info_net_type_umts">China Mobile Communications Corporation(umts)3g</string>
+
+    <string name="phone_info_net_type_2g">2G</string>
+    <string name="phone_info_net_type_3g">3G</string>
+    <string name="phone_info_net_type_4g">4G</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <!-- zhaoshh add string for msg -->
+    <string name="push_msg_ticker">Push the message</string>
+    <string name="push_msg_title"><xliff:g id="title" example="Main">%1$s</xliff:g></string>
+    <string name="push_msg_summary"><xliff:g id="summary" example="Main">%1$s</xliff:g></string>
+
+
+    <!-- zhaoshh add string -->
+    <string name="push_msg_open_url_ticker">Push information</string>
+    <string name="push_msg_open_url_title">Receive the system recommended link</string>
+    <string name="push_msg_open_url_summary">Please open the link to view</string>
+
+    <string name="push_msg_open_picture_ticker">Push information</string>
+    <string name="push_msg_open_picture_title">Receive the system recommended picture</string>
+    <string name="push_msg_open_picture_summary">Please open the picture to see</string>
+
+    <string name="push_msg_download_file_ticker">Push information</string>
+    <string name="push_msg_download_file_title">Receive the recommended APK</string>
+    <string name="push_msg_download_file_summary">Please download and install </string>
+    <string name="push_msg_download_file_complete_ticker">Push information</string>
+    <string name="push_msg_download_file_complete_title">APK install complete</string>
+    <string name="push_msg_download_file_complete_summary">Please install the trial</string>
+    <string name="push_msg_download_file_fail_ticker">Push information</string>
+    <string name="push_msg_download_file_fail_title">APK download fail</string>
+    <string name="push_msg_download_file_fail_summary">Check the network status </string>
+    <string name="open">oepn</string>
+    <string name="cancel">cancel</string>
+    <string name="push_download_start">download</string>
+    <string name="push_download_pause">pause</string>
+    <string name="push_msg_description_retract">Pack up</string>
+    <string name="push_msg_description_more">more</string>
+    <string name="push_msg_res_error">Unable to find relevant information </string>
+
+    <!-- App Download  -->
+    <string name="btn_download">download</string>
+    <string name="btn_launch">open</string>
+    <string name="btn_downloading">downloading</string>
+    <string name="btn_install">install</string>
+    <string name="btn_uninstall">uninstall</string>
+    <string name="btn_pause">pause</string>
+    <string name="btn_continue">continue</string>
+    <string name="btn_retry">retry</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_update">update</string>
+    <string name="tips_network_error">Network exception, server has no response</string>
+    <string name="push_download_manager">Download manager</string>
+    <string name="push_download_confirm_delete">Are you sure you want to delete the record？</string>
+    <string name="push_download_warning">tips</string>
+    <string name="push_app_version">version：</string>
+
+    <string name="push_download_pause_first">Please pause and then delete </string>
+
+    <string name="pref_title_set_business_server">Set up as a commercial server</string>
+    <string name="pref_server_setting_title">Business Server Settings</string>
+    <string name="pref_title_clear_reg_once_status">Remove the phone to report status </string>
+	<!--add by zhengguang.yang@20170914 start for add query active status -->
+	<string name="pref_title_query_active_status">query active status</string>
+	<!--end by zhengguang.yang -->
+    <string name="registered_success">Last reported date  <xliff:g id="date">%s</xliff:g></string>
+    <string name="registered_fail">Data not reported </string>
+    <string name="unregistered">Did not report </string>
+    <string name="pref_title_reg_once_status">The phone reports the status of the data </string>
+    <string name="clear_reg_once_flag_summary">The phone reports the status of the data</string>
+    <string name="reg_once_flag_cleared">Clear success </string>
+    <string name="set" >"setting"</string>
+    <string name="no">"cancel"</string>
+    <string name="pref_title_reg_once_limit">First start reporting data time Settings (minute)</string>
+    <string name="pref_summary_reg_once_limit">Start reporting time Settings </string>
+    <string name="operator_cmcc">China Mobile Communications Corporation</string>
+    <string name="operator_cu">China Unicom</string>
+    <string name="operator_ct">China Telecom</string>
+    <string name="app_description">Application description</string>
+    <string name="submitting">Submit, please wait ...</string>
+    <string name="commit_in_background">The background to submit </string>
+    <string name="commit_in_background_tips">tips : press home button , but not quit this app , this can sure you submit successfully.</string>
+
+    <string name="user_service">User Service</string>
+    <string name="question_feedback">User Feedback</string>
+    <string name="qc_action">QingCheng activities </string>
+    <string name="usage_instruction">Use manual for mobile phone </string>
+    <string name="common_question">Common problems </string>
+    <string name="machine_skill">Playing machine skills </string>
+    <string name="title_common_00">Use guide </string>
+    <string name="title_common_01">After sales policy </string>
+    <string name="title_common_02">Service outlets </string>
+    <string name="title_common_03">manual service </string>
+    <string name="no_net">Disconnect the Internet and reconnect the Internet </string>
+    <string name="load_fail">Load failed </string>
+    <string name="net_weak">The network is not to force </string>
+    <string name="no_sd_card">SD card does not exist, please install SD card and download again </string>
+    <string name="begin_download_game">Download the game, please check its status in the download manager </string>
+    <string name="pay_success">Pay for success </string>
+    <string name="wx_uninstalled">[You need to install WeChat ]</string>
+    <string name="wx_uninstalled2">You need to install WeChat to use WeChat </string>
+    <string name="need_login_account">Please login to your VOGA UI account and then purchase</string>
+    <string name="go_login">login/register>></string>
+
+    <string name="select_question_type">Please select the type of feedback you want </string>
+    <string name="user_guide">use guide</string>
+    <string name="service_common_question">common question</string>
+</resources>

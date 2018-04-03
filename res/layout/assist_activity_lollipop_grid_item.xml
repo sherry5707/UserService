@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/question_feedback_grid_view_layout_width"
+    android:layout_height="@dimen/question_feedback_grid_view_layout_height"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/itemIcon"
+            android:layout_width="@dimen/common_grid_view_item_icon_width"
+            android:layout_height="@dimen/common_grid_view_item_icon_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/main_tabtitle_normal2"
+            android:textSize="@dimen/common_sub_size" />
+    </LinearLayout>
+
+</LinearLayout>

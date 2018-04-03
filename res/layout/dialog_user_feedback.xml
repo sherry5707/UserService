@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideInset">
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_feedback_advice"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="20dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_marginLeft="15dp"
+        android:text="@string/still_use_title"
+        />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        >
+        
+        <TextView 
+            android:text="@string/still_use_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            />
+        
+        <TextView 
+            android:id="@+id/user_service_agreement"
+            android:text="@string/myui_user_service_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FF8800"
+            android:clickable="true"
+            android:onClick="onUserServiceAgreementClick"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        >
+        
+        <TextView 
+            android:text="@string/still_use_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            />
+        
+        <TextView 
+            android:id="@+id/user_secrecy_agreement"
+            android:text="@string/myui_user_secrecy_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FF8800"
+            android:clickable="true"
+            android:onClick="onUserSecrecyAgreementClick"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"    
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="5dp"
+	    >
+	    <CheckBox 
+	    	android:id="@+id/showCheck"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:checked="false"    
+	    />
+	    <TextView 
+	    	android:text="@string/not_show_next"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical"
+	    	android:layout_marginLeft="10dp"
+	    	android:textSize="16dp"
+	    />	
+	 </LinearLayout>
+	</LinearLayout>
+</ScrollView>

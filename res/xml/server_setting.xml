@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_data_collection_settings"
+        android:title="@string/pref_server_setting_title" >
+        <Preference android:key="pref_key_reg_once_limit"
+                      android:persistent="false"
+                      android:summary="@string/pref_summary_reg_once_limit"
+                      android:title="@string/pref_title_reg_once_limit" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_set_business_server"
+            android:title="@string/pref_title_set_business_server" />
+
+        <Preference
+            android:key="pref_key_reg_once_status"
+            android:persistent="false"
+            android:title="@string/pref_title_reg_once_status" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_clear_reg_once_status"
+            android:title="@string/pref_title_clear_reg_once_status" />
+	  <!--add by zhengguang.yang@20170914 start for query active status -->
+         <Preference
+            android:key="pref_key_query_active_status"
+            android:persistent="false"
+            android:title="@string/pref_title_query_active_status" />
+         <!--end by zhengguang.yang -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

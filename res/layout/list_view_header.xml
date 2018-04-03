@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:background="@color/common_bg_color"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	<FrameLayout
+		android:id="@+id/ly_vp"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/ad_view_height">
+        <!-- 轮播 -->
+		<com.ragentek.ypush.service.ui.view.ImageCycleView
+	        android:id="@+id/ad_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- 使用指南，售后政策，服务网点，人工服务" -->
+
+    <FrameLayout
+        android:id="@+id/ly_common_item"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+		android:layout_marginTop="5dp"
+		android:layout_below="@id/ly_vp">
+
+        <GridView
+            android:id="@+id/common_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:verticalSpacing="@dimen/question_feedback_grid_view_vertical_spacing"
+			android:horizontalSpacing="@dimen/question_feedback_grid_view_horizontal_spacing"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2" />
+    </FrameLayout>
+
+    <!-- 青橙活动 -->
+
+    <LinearLayout
+        android:id="@+id/qc_action"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qc_action_height"
+        android:layout_below="@id/ly_common_item"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/qc_action_padding_left"
+        android:paddingRight="@dimen/qc_action_padding_right" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/qc_action_text_color"
+            android:textSize="@dimen/qc_action_textsize"
+            android:text="@string/qc_action" />
+    </LinearLayout>
+
+</RelativeLayout>

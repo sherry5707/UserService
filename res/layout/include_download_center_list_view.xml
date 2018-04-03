@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="62dp"
+	>
+	
+    <ImageView
+    android:id="@+id/item_image"
+	android:layout_width="45dp"
+	android:layout_height="45dp"
+	android:layout_marginLeft="15dp"
+	android:layout_marginRight="10dp"
+	android:scaleType="centerCrop"
+	android:layout_centerVertical="true"
+	/>
+    
+    <RelativeLayout
+    android:id="@+id/layout_download"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_centerVertical="true"
+	android:layout_marginRight="5dp"
+    >
+        <Button 
+	    android:id="@+id/btn_download"
+		android:layout_width="62.5dp"
+		android:layout_height="62.5dp"
+		android:focusable="false"
+		android:background="@drawable/download_btn_selected"
+		/>
+	    
+	    <TextView 
+	    android:id="@+id/download_status_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="12sp"
+	   	android:singleLine="true"
+		android:layout_centerHorizontal="true"
+		android:layout_alignBottom="@+id/btn_download"
+		/>
+		<!-- android:text="免费" -->
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/item_image"
+	android:layout_centerVertical="true"
+	android:layout_marginRight="70dp"
+    >
+        <TextView 
+	    android:id="@+id/app_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="16sp"
+	   	android:singleLine="true"
+		android:textColor="@color/font_title"
+		/>
+        <TextView
+            android:id="@+id/app_download_status_tips"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="12sp"
+			android:layout_marginTop="5dp"
+		   	android:singleLine="true"
+			android:textColor="@color/font_subtitle"
+			android:layout_below="@+id/app_name"
+            />
+		   	<!-- android:text="下载完成，长按删除" -->
+    </RelativeLayout>
+
+</RelativeLayout>
